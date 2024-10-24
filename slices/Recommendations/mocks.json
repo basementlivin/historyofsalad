@@ -1,0 +1,469 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"recommendation": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"image",
+								{
+									"provider": "imgix",
+									"url": "https://images.unsplash.com/photo-1580130544326-80fc93876841?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyOHx8dmludGFnZSUyMGlsbHVzdHJhdGlvbnxlbnwwfHx8fDE3Mjg0MjE0NjN8MA&ixlib=rb-4.0.3&q=85",
+									"alt": " Swim for health in safe and pure pools. WPA poster.",
+									"origin": {
+										"id": "lonORIx6Z3o",
+										"url": "https://images.unsplash.com/photo-1580130544326-80fc93876841?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyOHx8dmludGFnZSUyMGlsbHVzdHJhdGlvbnxlbnwwfHx8fDE3Mjg0MjE0NjN8MA&ixlib=rb-4.0.3&q=85",
+										"width": 2997,
+										"height": 4458
+									},
+									"width": 2997,
+									"height": 4458,
+									"edit": {
+										"background": "transparent",
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										}
+									},
+									"credits": null,
+									"__TYPE__": "ImageContent",
+									"thumbnails": {}
+								}
+							],
+							[
+								"title",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "Art Deco \"Swim for Health\" ads"
+								}
+							],
+							[
+								"copy",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Lorem ipsum odor amet, consectetuer adipiscing elit. Sapien justo elementum urna congue bibendum maecenas. Efficitur imperdiet quis class volutpat sodales. Pharetra himenaeos lacus tempus inceptos id eros gravida mus.",
+												"spans": []
+											},
+											"direction": "ltr"
+										},
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Netus adipiscing lacus pellentesque viverra nec lobortis curae. Fusce tristique auctor, ridiculus nostra fringilla ad. Varius enim dolor pharetra facilisi ac adipiscing ut. Blandit maximus porta; a lacus mauris laoreet?",
+												"spans": []
+											},
+											"direction": "ltr"
+										},
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Pretium taciti ad habitant viverra egestas tincidunt aptent. Tellus praesent sagittis vitae malesuada tortor conubia habitasse.",
+												"spans": []
+											},
+											"direction": "ltr"
+										}
+									]
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"image",
+								{
+									"provider": "imgix",
+									"url": "https://images.unsplash.com/photo-1597714026720-8f74c62310ba?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxfHxjaXRydXMlMjBmcnVpdHxlbnwwfHx8fDE3MjgzODg1MjF8MA&ixlib=rb-4.0.3&q=85",
+									"alt": "orange fruits under blue sky during daytime",
+									"origin": {
+										"id": "eaOjEz8746k",
+										"url": "https://images.unsplash.com/photo-1597714026720-8f74c62310ba?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxfHxjaXRydXMlMjBmcnVpdHxlbnwwfHx8fDE3MjgzODg1MjF8MA&ixlib=rb-4.0.3&q=85",
+										"width": 5688,
+										"height": 3792
+									},
+									"width": 5688,
+									"height": 3792,
+									"edit": {
+										"background": "transparent",
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										}
+									},
+									"credits": null,
+									"__TYPE__": "ImageContent",
+									"thumbnails": {}
+								}
+							],
+							[
+								"copy",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Himenaeos blandit rhoncus netus phasellus leo fusce pulvinar nisi. Elementum aenean nisi convallis habitasse, vestibulum ridiculus. Sed diam malesuada adipiscing libero dictum scelerisque nullam sem lectus. Netus adipiscing lacus pellentesque viverra nec lobortis curae. Fusce tristique auctor, ridiculus nostra fringilla ad. Varius enim dolor pharetra facilisi ac adipiscing ut. Blandit maximus porta; a lacus mauris laoreet?",
+												"spans": []
+											},
+											"direction": "ltr"
+										},
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Lacus sodales torquent vulputate quam adipiscing est erat. Lacus montes tempor curae integer bibendum primis. Pretium taciti ad habitant viverra egestas tincidunt aptent. Tellus praesent sagittis vitae malesuada tortor conubia habitasse. Aliquet aptent nascetur finibus donec; viverra cras. Tristique ullamcorper suspendisse risus molestie maecenas; augue id nisl. Montes sagittis adipiscing gravida nisi, primis molestie. Quis taciti tortor dictumst at dictum lorem. Etiam class curabitur sollicitudin ut quis hendrerit vitae.",
+												"spans": []
+											},
+											"direction": "ltr"
+										}
+									]
+								}
+							],
+							[
+								"title",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "All kinds of citrus"
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"copy",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Himenaeos blandit rhoncus netus phasellus leo fusce pulvinar nisi. Elementum aenean nisi convallis habitasse, vestibulum ridiculus. Sed diam malesuada adipiscing libero dictum scelerisque nullam sem lectus. Netus adipiscing lacus pellentesque viverra nec lobortis curae. Fusce tristique auctor, ridiculus nostra fringilla ad. Varius enim dolor pharetra facilisi ac adipiscing ut. Blandit maximus porta; a lacus mauris laoreet?",
+												"spans": []
+											},
+											"direction": "ltr"
+										}
+									]
+								}
+							],
+							[
+								"image",
+								{
+									"provider": "imgix",
+									"url": "https://images.unsplash.com/photo-1535127022272-dbe7ee35cf33?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyNXx8c2xpbWUlMjBtb2xkfGVufDB8fHx8MTcyODQyMTI0MHww&ixlib=rb-4.0.3&q=85",
+									"alt": "scope image",
+									"origin": {
+										"id": "13UugSL9q7A",
+										"url": "https://images.unsplash.com/photo-1535127022272-dbe7ee35cf33?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyNXx8c2xpbWUlMjBtb2xkfGVufDB8fHx8MTcyODQyMTI0MHww&ixlib=rb-4.0.3&q=85",
+										"width": 6000,
+										"height": 4000
+									},
+									"width": 6000,
+									"height": 4000,
+									"edit": {
+										"background": "transparent",
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										}
+									},
+									"credits": null,
+									"__TYPE__": "ImageContent",
+									"thumbnails": {}
+								}
+							],
+							[
+								"title",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "Slime molds"
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"copy",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Sapien justo elementum urna congue bibendum maecenas. Efficitur imperdiet quis class volutpat sodales. Pharetra himenaeos lacus tempus inceptos id eros gravida mus. Habitasse duis platea justo, adipiscing a condimentum. ",
+												"spans": []
+											},
+											"direction": "ltr"
+										},
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Penatibus fusce integer cras congue in adipiscing nunc quis accumsan. Quam amet commodo sed auctor felis adipiscing non. Himenaeos blandit rhoncus netus phasellus leo fusce pulvinar nisi. Elementum aenean nisi convallis habitasse, vestibulum ridiculus. Sed diam malesuada adipiscing libero dictum scelerisque nullam sem lectus. Netus adipiscing lacus pellentesque viverra nec lobortis curae. Aliquet aptent nascetur finibus donec; viverra cras.",
+												"spans": []
+											},
+											"direction": "ltr"
+										}
+									]
+								}
+							],
+							[
+								"title",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "Dune Prophecy by Frank Herbert"
+								}
+							],
+							[
+								"image",
+								{
+									"provider": "imgix",
+									"url": "https://images.unsplash.com/photo-1601658232683-8bdd0c005a75?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyfHxkdW5lJTIwYm9va3xlbnwwfHx8fDE3Mjg0MjUxOTd8MA&ixlib=rb-4.0.3&q=85",
+									"alt": "persons hand on book page",
+									"origin": {
+										"id": "v4FQ-3YdE2w",
+										"url": "https://images.unsplash.com/photo-1601658232683-8bdd0c005a75?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyfHxkdW5lJTIwYm9va3xlbnwwfHx8fDE3Mjg0MjUxOTd8MA&ixlib=rb-4.0.3&q=85",
+										"width": 4463,
+										"height": 2976
+									},
+									"width": 4463,
+									"height": 2976,
+									"edit": {
+										"background": "transparent",
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										}
+									},
+									"credits": null,
+									"__TYPE__": "ImageContent",
+									"thumbnails": {}
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"copy",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Efficitur imperdiet quis class volutpat sodales. Pharetra himenaeos lacus tempus inceptos id eros gravida mus. Habitasse duis platea justo, adipiscing a condimentum. Penatibus fusce integer cras congue in adipiscing nunc quis accumsan. Quam amet commodo sed auctor felis adipiscing non.",
+												"spans": []
+											},
+											"direction": "ltr"
+										},
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Sed diam malesuada adipiscing libero dictum scelerisque nullam sem lectus. Netus adipiscing lacus pellentesque viverra nec lobortis curae. Fusce tristique auctor, ridiculus nostra fringilla ad. Varius enim dolor pharetra facilisi ac adipiscing ut. Blandit maximus porta; a lacus mauris laoreet?",
+												"spans": []
+											},
+											"direction": "ltr"
+										}
+									]
+								}
+							],
+							[
+								"image",
+								{
+									"provider": "imgix",
+									"url": "https://images.unsplash.com/photo-1574687175248-c3e40a0e3c48?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxNnx8dmludGFnZSUyMHRhcm90fGVufDB8fHx8MTcyODQyNTI4OHww&ixlib=rb-4.0.3&q=85",
+									"alt": "grayscale photo of three women standing and sitting on rocks",
+									"origin": {
+										"id": "tSI6lC8agLU",
+										"url": "https://images.unsplash.com/photo-1574687175248-c3e40a0e3c48?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxNnx8dmludGFnZSUyMHRhcm90fGVufDB8fHx8MTcyODQyNTI4OHww&ixlib=rb-4.0.3&q=85",
+										"width": 7400,
+										"height": 10692
+									},
+									"width": 7400,
+									"height": 10692,
+									"edit": {
+										"background": "transparent",
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										}
+									},
+									"credits": null,
+									"__TYPE__": "ImageContent",
+									"thumbnails": {}
+								}
+							],
+							[
+								"title",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "Vintage swimwear looks"
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"image",
+								{
+									"provider": "imgix",
+									"url": "https://images.unsplash.com/photo-1530538987395-032d1800fdd4?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw0fHx2aW50YWdlJTIwYm9vayUyMGNvdmVyfGVufDB8fHx8MTcyODQyNTM3MHww&ixlib=rb-4.0.3&q=85",
+									"alt": "The Unlimited Dream Company by J.G. Ballard book",
+									"origin": {
+										"id": "DG6TzGH_1eY",
+										"url": "https://images.unsplash.com/photo-1530538987395-032d1800fdd4?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw0fHx2aW50YWdlJTIwYm9vayUyMGNvdmVyfGVufDB8fHx8MTcyODQyNTM3MHww&ixlib=rb-4.0.3&q=85",
+										"width": 3072,
+										"height": 2048
+									},
+									"width": 3072,
+									"height": 2048,
+									"edit": {
+										"background": "transparent",
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										}
+									},
+									"credits": null,
+									"__TYPE__": "ImageContent",
+									"thumbnails": {}
+								}
+							],
+							[
+								"title",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "The Unlimited Dream Company by J.G. Ballard"
+								}
+							],
+							[
+								"copy",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Blandit maximus porta; a lacus mauris laoreet?",
+												"spans": []
+											},
+											"direction": "ltr"
+										},
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Lacus sodales torquent vulputate quam adipiscing est erat. Lacus montes tempor curae integer bibendum primis. Pretium taciti ad habitant viverra egestas tincidunt aptent. Tellus praesent sagittis vitae malesuada tortor conubia habitasse. Aliquet aptent nascetur finibus donec; viverra cras. Tristique ullamcorper suspendisse risus molestie maecenas; augue id nisl. Montes sagittis adipiscing gravida nisi, primis molestie. Quis taciti tortor dictumst at dictum lorem. Etiam class curabitur sollicitudin ut quis hendrerit vitae.",
+												"spans": []
+											},
+											"direction": "ltr"
+										}
+									]
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"image",
+								{
+									"__TYPE__": "ImageContent",
+									"provider": "imgix",
+									"url": "https://images.unsplash.com/photo-1696025522422-aa9a74e4f3d5?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyNXx8c2tpbiUyMGNhcmV8ZW58MHx8fHwxNzI4NDkyOTgyfDA&ixlib=rb-4.0.3&q=85",
+									"alt": "a bottle of vitamin oil sitting on top of a rock",
+									"origin": {
+										"id": "dfocKTrQQ9Y",
+										"url": "https://images.unsplash.com/photo-1696025522422-aa9a74e4f3d5?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyNXx8c2tpbiUyMGNhcmV8ZW58MHx8fHwxNzI4NDkyOTgyfDA&ixlib=rb-4.0.3&q=85",
+										"width": 5381,
+										"height": 6726
+									},
+									"width": 5381,
+									"height": 6726,
+									"edit": {
+										"background": "transparent",
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										}
+									},
+									"thumbnails": {}
+								}
+							],
+							[
+								"title",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "The Ordinary"
+								}
+							],
+							[
+								"copy",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Lorem ipsum odor amet, consectetuer adipiscing elit. Sapien justo elementum urna congue bibendum maecenas. Efficitur imperdiet quis class volutpat sodales. Pharetra himenaeos lacus tempus inceptos id eros gravida mus.",
+												"spans": []
+											},
+											"direction": "ltr"
+										},
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Netus adipiscing lacus pellentesque viverra nec lobortis curae. Fusce tristique auctor, ridiculus nostra fringilla ad. Varius enim dolor pharetra facilisi ac adipiscing ut. Blandit maximus porta; a lacus mauris laoreet?",
+												"spans": []
+											},
+											"direction": "ltr"
+										},
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Pretium taciti ad habitant viverra egestas tincidunt aptent. Tellus praesent sagittis vitae malesuada tortor conubia habitasse.",
+												"spans": []
+											},
+											"direction": "ltr"
+										}
+									]
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

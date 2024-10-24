@@ -1,0 +1,32 @@
+{
+  "id": "spacer",
+  "type": "SharedSlice",
+  "name": "Spacer",
+  "description": "Spacer",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "size": {
+          "type": "Select",
+          "config": {
+            "label": "Size",
+            "placeholder": "Set the height of your spacer.",
+            "options": [
+              "Small",
+              "Medium",
+              "Large",
+              "XL"
+            ]
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

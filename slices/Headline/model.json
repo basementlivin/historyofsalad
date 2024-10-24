@@ -1,0 +1,56 @@
+{
+  "id": "headline",
+  "type": "SharedSlice",
+  "name": "Headline",
+  "description": "Headline",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "headline": {
+          "type": "Text",
+          "config": {
+            "label": "Headline",
+            "placeholder": ""
+          }
+        },
+        "headline_level": {
+          "type": "Select",
+          "config": {
+            "label": "Headline Level",
+            "placeholder": "",
+            "options": [
+              "h1",
+              "h2",
+              "h3",
+              "h4",
+              "h5",
+              "h6"
+            ],
+            "default_value": "h1"
+          }
+        },
+        "headline_style": {
+          "type": "Select",
+          "config": {
+            "label": "Headline Style",
+            "placeholder": "",
+            "options": [
+              "Large",
+              "Medium",
+              "Small",
+              "Hidden"
+            ],
+            "default_value": "Large"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

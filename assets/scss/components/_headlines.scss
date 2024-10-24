@@ -1,0 +1,21 @@
+.headline {
+  margin: 0;
+  font-family: $syne;
+  text-align: center;
+
+  &--large {
+    font-size: $h1;
+  }
+
+  &--medium {
+    font-size: $h2;
+  }
+
+  &--small {
+    font-size: $h3;
+  }
+
+  &--hidden {
+    @include visually-hidden();
+  }
+}

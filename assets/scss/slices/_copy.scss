@@ -1,0 +1,13 @@
+section.copy {
+  // padding-top: 4rem;
+  // padding-bottom: 4rem;
+  
+  .copy__inner {
+    @include chivo-variable(500);
+    line-height: 1.45;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

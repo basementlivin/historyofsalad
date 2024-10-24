@@ -1,0 +1,48 @@
+{
+  "format": "custom",
+  "id": "newsletter_popup_form",
+  "label": "Newsletter Pop-Up Form",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Form Settings": {
+      "headline": {
+        "type": "Text",
+        "config": {
+          "label": "Headline",
+          "placeholder": "Get Jelly"
+        }
+      },
+      "subheadline": {
+        "type": "Text",
+        "config": {
+          "label": "Subheadline",
+          "placeholder": "Sign up for the newsletter"
+        }
+      },
+      "button_text": {
+        "type": "Text",
+        "config": {
+          "label": "Button Text",
+          "placeholder": "Join the club!"
+        }
+      }
+    },
+    "Form Success Message": {
+      "success_headline": {
+        "type": "Text",
+        "config": {
+          "label": "Success Headline",
+          "placeholder": "Got it, thanks!"
+        }
+      },
+      "success_subheadline": {
+        "type": "Text",
+        "config": {
+          "label": "Success Subheadline",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}

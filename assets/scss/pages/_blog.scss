@@ -1,0 +1,91 @@
+.page--blog {
+
+  .blog__articles {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding-bottom: 4rem;
+    
+    .articles__container {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      
+      @include breakpoint($tablet) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 0;
+        row-gap: 4rem;
+      }
+
+      @include breakpoint($laptop) {
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .article {
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+
+        @include breakpoint($laptop) {
+        }
+
+        &__image {
+          pointer-events: none;
+          width: 100%;
+          height: auto;
+          aspect-ratio: 5/7;
+          overflow: hidden;
+
+          img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+
+        &__details {
+          pointer-events: none;
+          padding: 0.5rem 2rem;
+          display: flex;
+          flex-direction: column;
+          font-family: $monument;
+
+          .tag, .link {
+            text-transform: lowercase;
+            font-size: 0.875rem;
+          }
+
+          .headline {
+            margin: 0;
+            padding-top: 2rem;
+            padding-bottom: 1rem;
+            font-size: 1.5rem;
+            line-height: 1.4;
+          }
+
+          .link {
+            pointer-events: all;
+          }
+        }
+      }
+    }
+
+    .articles__load-more {
+      padding-top: 6rem;
+      align-self: center;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .articles__no-more {
+      padding-top: 6rem;
+      align-self: center;
+      text-align: center;
+      @include chivo-variable(500);
+    }
+
+  }
+
+}

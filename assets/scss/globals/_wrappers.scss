@@ -1,0 +1,35 @@
+.wrapper {
+    padding-left: 2rem; 
+    padding-right: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper--page-width {
+    @include breakpoint(calc(1300px + 4rem)) {
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 1300px;
+    } 
+}
+
+.wrapper--narrow {
+    @include breakpoint(calc(960px + 4rem)) {
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 960px;
+    }
+}
+
+.wrapper--wide {
+    @include breakpoint(calc(1600px + 4rem)) {
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 1600px;
+    }
+}
+
+.wrapper--fullscreen {
+    padding-left: 0;
+    padding-right: 0;
+}

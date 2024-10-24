@@ -1,0 +1,122 @@
+.search-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  
+  &__content {
+    max-height: 66vh;
+    max-width: 600px;
+    overflow-y: auto;
+    background: $white;
+    padding: 2rem;
+    position: relative;
+    width: 90%;
+    
+    span#search-dialog-title {
+      @include visually-hidden;
+    }
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    font-size: 1.25rem;
+    cursor: pointer;
+    color: $black;
+
+    &:hover {
+      animation: spin 0.425s ease;
+    }
+  }
+
+  .loading {
+    @include chivo-variable();
+    font-size: 1.25rem;
+    color: $black;
+    text-align: center;
+  }
+
+  .search-component {
+    padding: 3rem 1rem;
+    
+    input {
+      font-family: $monument;
+      width: 100%;
+      padding: .75rem 1rem;
+      margin-bottom: 2rem;
+      border: 2px solid $black;
+    
+      &::placeholder {
+        color: $black;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+    
+    ul.search-results {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      
+      li.result {
+        &:nth-child(odd) .image.image--blog {
+          border-radius: 50%;
+          overflow: hidden;
+        }
+        a {
+          display: grid;
+          grid-template-columns: 6rem 1fr;
+          align-items: center;
+          column-gap: 1rem;
+      
+          .image.image--blog {
+            width: 6rem;
+            height: 6rem;
+      
+            img {
+              display: block;
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+          }
+      
+          .image.image--ask-jelly {
+            width: 6rem;
+            height: 6rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+      
+            img {
+              display: block;
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+            }
+          }
+      
+          .title {
+            @include chivo-variable();
+            font-size: 1.35rem;
+            line-height: 1.35;
+          }
+        }
+      }
+    }
+  }
+}
+
+

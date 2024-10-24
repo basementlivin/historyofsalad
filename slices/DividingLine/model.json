@@ -1,0 +1,47 @@
+{
+  "id": "dividing_line",
+  "type": "SharedSlice",
+  "name": "DividingLine",
+  "description": "DividingLine",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "padding_top": {
+          "type": "Select",
+          "config": {
+            "label": "Padding Top",
+            "placeholder": "",
+            "options": [
+              "16px",
+              "32px",
+              "48px",
+              "64px"
+            ],
+            "default_value": "16px"
+          }
+        },
+        "padding_bottom": {
+          "type": "Select",
+          "config": {
+            "label": "Padding Bottom",
+            "placeholder": "",
+            "options": [
+              "16px",
+              "32px",
+              "48px",
+              "64px"
+            ],
+            "default_value": "16px"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

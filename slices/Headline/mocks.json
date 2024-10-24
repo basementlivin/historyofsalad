@@ -1,0 +1,24 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"headline_level": {
+				"__TYPE__": "FieldContent",
+				"type": "Select",
+				"value": "h1"
+			},
+			"headline_style": {
+				"__TYPE__": "FieldContent",
+				"type": "Select",
+				"value": "Large"
+			},
+			"headline": {
+				"__TYPE__": "FieldContent",
+				"value": "wrapped",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]

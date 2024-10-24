@@ -1,0 +1,7 @@
+.subheadline {
+  margin: 0;
+  display: block;
+  @include chivo-variable();
+  font-size: $h4;
+  text-align: center;
+}

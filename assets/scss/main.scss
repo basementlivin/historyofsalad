@@ -1,0 +1,16 @@
+/*
+Theme Name: Spread the Jelly
+Author: History of Salad, Erik Pedersen
+Author URI: https://historyofsalad.com/, https://erikpedersen.website/
+Version: 1.0
+*/
+
+// COMPONENTS
+@import './components/header';
+@import './components/footer';
+@import './components/search';
+@import './components/buttons';
+@import './components/form--ask-jelly';
+
+// GLOBALS
+@import './globals/animations';

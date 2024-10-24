@@ -1,0 +1,64 @@
+html, body {
+    font-family: $sans;
+    font-weight: 400;
+    color: $black;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: $white;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+}
+
+#smooth-content {
+    overflow: visible;
+    width: 100%;
+}
+
+body.menu-open,
+body.contact-open,
+body.search-open {
+    overflow: hidden;
+    pointer-events: none;
+
+    .js-slide-in-menu,
+    .js-search-modal,
+    div.header__logo {
+        pointer-events: all;
+    }
+}
+
+::selection {
+    background-color: $black;
+    color: $white;
+}
+
+::-moz-selection {
+    background-color: $black;
+    color: $white;
+}
+
+.fade-container {
+	animation: fadeSiteIn 0.5s ease forwards;
+}
+
+body {
+	min-height: 100vh;
+    min-height: 100svh;
+	position: relative;
+	transition: background 1s;
+}
+
+main {
+    padding-top: $nav-height;
+	position: relative;
+	z-index: 2;
+	backface-visibility: hidden;
+    min-height: 100vh;
+    min-height: 100svh;
+}
+
+.hidden, .sr-only {
+    @include visually-hidden;
+}

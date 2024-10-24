@@ -1,0 +1,97 @@
+@import 'variables';
+
+html {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-size: 100%;
+}
+
+body {
+    font-weight: 400;
+}
+
+a {
+    color: inherit;
+
+    &:hover,
+    &:focus {
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: .1em;
+    }
+}
+
+
+html {font-size: 100%; }
+
+body {
+    font-family: $sans;
+    background: $white;
+    line-height: 1.5;
+    color: $black;
+}
+
+// p {margin-bottom: 1rem;}
+
+body {
+    font-family: $sans;
+    background: $white;
+    line-height: 1.75;
+    color: $black;
+}
+
+// p {margin-bottom: 1rem;}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5 {
+    margin: 0 0 0.5em 0;
+    font-weight: 400;
+    line-height: 1.175;
+}
+
+.h0 {
+    margin-top: 0;
+    font-size: clamp(calc($h0 * 0.625), 5vw, $h0);
+}
+
+h1, .h1 {
+    margin-top: 0;
+    font-size: clamp(calc($h1 * 0.625), 4vw, $h1);
+    font-family: $sans;
+}
+
+h2, .h2 {
+    font-size: clamp(calc($h2 * 0.625), 3vw, $h2);
+}
+
+h3, .h3 {
+    font-size: clamp(calc($h3 * 0.625), 2vw, $h3);
+}
+
+h4, .h4 {
+    font-size: clamp(calc($h4 * 0.625), 1.5vw, $h4);
+}
+
+h5, .h5 {
+    font-size: clamp(calc($h5 * 0.625), 1.25vw, $h5);
+}
+
+.body {
+    font-size: $body;
+
+    em {
+        font-family: $chivo-medium-italic;
+    }
+}
+
+.body--bold {
+    @include chivo-variable(800);
+    letter-spacing: 0.01em;
+}
+
+.body--small {
+    font-size: calc($body - 0.175em);
+}
+
+small, .text--small {
+    font-size: $h6;
+}

@@ -1,0 +1,104 @@
+// TYPOGRAPHY
+@font-face {
+  font-family: "Chivo Variable";
+  src: url("/assets/fonts/Chivo-VariableFont_wght.ttf") format("truetype-variations");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Chivo Regular";
+  src: url("/assets/fonts/Chivo-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Chivo Medium";
+  src: url("/assets/fonts/Chivo-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Chivo Medium Italic";
+  src: url("/assets/fonts/Chivo-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Chivo Bold";
+  src: url("/assets/fonts/Chivo-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Chivo Black";
+  src: url("/assets/fonts/Chivo-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Syne ExtraBold";
+  src: url("/assets/fonts/Syne-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PP Monument Extended Regular";
+  src:  url("/assets/fonts/PPMonumentExtended-Regular.woff") format("woff"),
+        url("/assets/fonts/PPMonumentExtended-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+$sans: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$text--small: clamp(calc(13rem/16), 1.7vw, calc(15rem/16));
+
+$chivo-regular: "Chivo Regular", $sans;
+$chivo-medium: "Chivo Medium", $sans;
+$chivo-medium-italic: "Chivo Medium Italic", $sans;
+$chivo-bold: "Chivo Bold", $sans;
+$chivo-black: "Chivo Black", $sans;
+
+$syne: "Syne ExtraBold", $sans;
+$monument: "PP Monument Extended Regular", $sans;
+
+@mixin chivo-variable($wght: 500) {
+  font-family: "Chivo Variable", $chivo-medium, $sans;
+  font-variation-settings: "wght" $wght;
+}
+
+// TYPE SCALE: PERFECT FOURTH
+$h0: 4.209rem;
+$h1: 3.157rem;
+$h2: 2.369rem;
+$h3: 1.777rem;
+$h4: 1.333rem;
+$body: 1rem;
+$h5: 0.75rem;
+$h6: 0.563rem;
+
+// BREAKPOINTS
+$page-width: var(--page-width, 1300px);
+$desktop: 1280px; 
+$laptop: 1024px;
+$tablet: 768px;
+$mobile: 400px;
+
+// PALETTE
+$black: #000;
+$white: #fff;
+$yellow: #ffe6a1;
+$red: #9e242d;
+$pink: #f4d3e8;
+$green: #c0D260;
+$blue: #d5e3f6;
+
+// NAVIGATION
+$nav-height: 6rem;

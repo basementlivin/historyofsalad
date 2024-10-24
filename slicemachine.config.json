@@ -1,6 +1,6 @@
 {
   "libraries": ["./slices"],
-  "repositoryName": "historyofsalad",
   "adapter": "@slicemachine/adapter-nuxt",
+  "repositoryName": "historyofsalad",
   "localSliceSimulatorURL": "http://localhost:3000/slice-simulator"
 }

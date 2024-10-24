@@ -1,19 +1,21 @@
 <script setup lang="ts">
 import { components } from '~/slices'
-
+import { usePageSeo } from '~/composables/usePageSeo'
 const prismic = usePrismic()
+const route = useRoute()
+
 const { data: page } = useAsyncData('index', () =>
-  prismic.client.getByUID('page', 'home')
+  prismic.client.getByUID('page', 'home', {
+    fetchLinks: [
+    ]
+  })
 )
-
-useHead({
-  title: prismic.asText(page.value?.data.title)
-})
+usePageSeo(page)
 </script>
-
 
 <template>
   <SliceZone
+    id="main"
     wrapper="main"
     :slices="page?.data.slices ?? []"
     :components="components"

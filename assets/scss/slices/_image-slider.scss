@@ -1,0 +1,54 @@
+.image-slider {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  position: relative;
+  padding-right: 4rem;
+
+  .swiper {
+    height: 300px;
+
+    @include breakpoint($tablet) {
+      height: 400px;
+    }
+
+    @include breakpoint($laptop) {
+      height: 500px;
+    }
+  }
+
+  .swiper-slide--custom {
+    width: auto;
+    height: 100%;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+
+    img {
+      display: block;
+      width: auto;
+      height: 100%;
+      object-fit: cover;
+
+      @include breakpoint($tablet) {
+        object-fit: contain;
+      }
+    }
+  }
+
+  .swiper-navigation {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1.25rem;
+
+    .swiper-button-prev--custom,
+    .swiper-button-next--custom {
+      color: $black;
+      font-size: 2.75rem;
+      cursor: pointer;
+    }
+  }
+}
