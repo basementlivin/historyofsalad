@@ -14,7 +14,7 @@
     max-height: 66vh;
     max-width: 600px;
     overflow-y: auto;
-    background: $white;
+    background: $feta;
     padding: 2rem;
     position: relative;
     width: 90%;
@@ -32,7 +32,7 @@
     border: none;
     font-size: 1.25rem;
     cursor: pointer;
-    color: $black;
+    color: $pepper;
 
     &:hover {
       animation: spin 0.425s ease;
@@ -40,9 +40,9 @@
   }
 
   .loading {
-    @include chivo-variable();
+    font-family: $sans;
     font-size: 1.25rem;
-    color: $black;
+    color: $pepper;
     text-align: center;
   }
 
@@ -50,14 +50,14 @@
     padding: 3rem 1rem;
     
     input {
-      font-family: $monument;
+      font-family: $sans;
       width: 100%;
       padding: .75rem 1rem;
       margin-bottom: 2rem;
-      border: 2px solid $black;
+      border: 2px solid $pepper;
     
       &::placeholder {
-        color: $black;
+        color: $pepper;
       }
 
       &:focus {
@@ -109,7 +109,7 @@
           }
       
           .title {
-            @include chivo-variable();
+            font-family: $sans;
             font-size: 1.35rem;
             line-height: 1.35;
           }

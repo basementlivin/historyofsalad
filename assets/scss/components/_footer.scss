@@ -5,7 +5,7 @@ div.footer__mask {
   padding: 0;
   margin: 0;
   margin-bottom: -1px;
-  color: $black;
+  color: $pepper;
 
   svg.mask {
     margin: 0;
@@ -20,8 +20,8 @@ div.footer__mask {
   margin: 0;
   padding: 2rem;
   width: 100%;
-  background-color: $black;
-  color: $white;
+  background-color: $pepper;
+  color: $feta;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -76,7 +76,7 @@ div.footer__mask {
   
   &__links {
     width: 100%;
-    @include chivo-variable(350);
+    font-family: $sans;
 
     @include breakpoint($laptop) {
       grid-area: links;
@@ -112,7 +112,7 @@ div.footer__mask {
     }
 
     .form-header {
-      @include chivo-variable(350);
+      font-family: $sans;
       text-transform: uppercase;
     }
 
@@ -126,20 +126,20 @@ div.footer__mask {
         width: 100%;
         padding: 1rem;
         border-radius: 0;
-        border: 1px solid $white;
-        background-color: $white;
-        color: $black;
-        @include chivo-variable(350);
+        border: 1px solid $feta;
+        background-color: $feta;
+        color: $pepper;
+        font-family: $sans;
         font-size: 1rem;
         letter-spacing: 0.01em;
         &::placeholder {
-          color: $black;
+          color: $pepper;
         }
       }
 
       button {
-        font-family: $monument;
-        color: $white;
+        font-family: $sans;
+        color: $feta;
         text-decoration: underline;
         text-align: left;
         font-size: 1rem;
@@ -148,9 +148,9 @@ div.footer__mask {
         background-color: transparent;
         border: none;
       }
-
+      
       .success-message {
-        @include chivo-variable(350);
+        font-family: $sans;
       }
     }
     
@@ -191,7 +191,7 @@ div.footer__mask {
     font-size: 0.875rem;
     line-height: 1.35;
     letter-spacing: 0.01em;
-    color: $white;
+    color: $feta;
     text-align: center;
 
     @include breakpoint($laptop) {
@@ -203,7 +203,7 @@ div.footer__mask {
     }
 
     a {
-      color: $white;
+      color: $feta;
       text-decoration: none;
     }
   }

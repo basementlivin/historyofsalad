@@ -50,7 +50,7 @@
           padding: 0.5rem 2rem;
           display: flex;
           flex-direction: column;
-          font-family: $monument;
+          font-family: $sans;
 
           .tag, .link {
             text-transform: lowercase;
@@ -83,7 +83,7 @@
       padding-top: 6rem;
       align-self: center;
       text-align: center;
-      @include chivo-variable(500);
+      font-family: $sans;
     }
 
   }

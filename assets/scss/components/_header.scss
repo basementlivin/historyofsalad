@@ -4,7 +4,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: $white;
+  background-color: $ranch;
   height: $nav-height;
   
   .header__inner {
@@ -43,7 +43,7 @@
       z-index: 10;
       display: flex;
       justify-content: center;
-      color: $black;
+      color: $pepper;
 
       @include breakpoint($mobile + 100px) {
         width: 2.5rem;
@@ -72,7 +72,7 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: $white;
+  background: $ranch;
   pointer-events: none;
   z-index: -1;
   opacity: 0;
@@ -107,7 +107,7 @@
     @include breakpoint($tablet) {
       padding: 1rem 5.25rem 1rem 12.25rem;
       justify-content: center;
-      background-color: $blue;
+      background-color: $arugula;
     }
 
     ul {
@@ -129,8 +129,8 @@
       .menu-item {
         opacity: 0;
         transition: opacity 0.475s;
+        font-family: $sans;
         font-size: 2rem;
-        @include chivo-variable(500);
         text-align: center;
         margin: 0;
 

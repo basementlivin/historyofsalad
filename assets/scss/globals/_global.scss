@@ -1,11 +1,11 @@
 html, body {
     font-family: $sans;
     font-weight: 400;
-    color: $black;
+    color: $pepper;
     margin: 0;
     height: 100%;
     width: 100%;
-    background-color: $white;
+    background-color: $feta;
     &::-webkit-scrollbar{
         display: none;
     }
@@ -30,13 +30,13 @@ body.search-open {
 }
 
 ::selection {
-    background-color: $black;
-    color: $white;
+    background-color: $pepper;
+    color: $feta;
 }
 
 ::-moz-selection {
-    background-color: $black;
-    color: $white;
+    background-color: $pepper;
+    color: $feta;
 }
 
 .fade-container {

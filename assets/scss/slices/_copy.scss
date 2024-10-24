@@ -3,7 +3,7 @@ section.copy {
   // padding-bottom: 4rem;
   
   .copy__inner {
-    @include chivo-variable(500);
+    font-family: $sans;
     line-height: 1.45;
     text-align: left;
     display: flex;

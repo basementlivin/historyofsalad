@@ -15,13 +15,13 @@
     text-align: center;
 
     .headline {
-      font-family: $syne;
+      font-family: $sans;
       margin: 0;
     }
 
     .copy {
       max-width: 450px;
-      font-family: $monument;
+      font-family: $sans;
       font-size: 1.75rem;
       line-height: 1.45;
       padding-top: 2rem;
@@ -34,9 +34,9 @@
       
       .tooltip {
         width: 100%;
-        background-color: $black;
-        color: $white;
-        @include chivo-variable(500);
+        background-color: $pepper;
+        color: $feta;
+        font-family: $sans;
         text-align: center;
         padding: 0.75rem 1rem;
         position: absolute;

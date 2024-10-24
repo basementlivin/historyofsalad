@@ -9,12 +9,12 @@
     text-align: center;
 
     .headline {
-      font-family: $syne;
+      font-family: $sans;
       margin: 0;
     }
-
+    
     .subheadline, .copy {
-      @include chivo-variable(500);
+      font-family: $sans;
       font-size: 1.35rem;
       line-height: 1.45;
     }
