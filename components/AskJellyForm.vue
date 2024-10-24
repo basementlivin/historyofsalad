@@ -103,5 +103,5 @@ const handleSubmit = (event: Event) => {
 </template>
 
 <style lang="scss" scoped>
-  @import '@/assets/scss/components/_form--ask-jelly.scss';
+
 </style>
